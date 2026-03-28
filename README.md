@@ -116,7 +116,7 @@ Output: Generates Figure 4 and Supplementary Figures S1 & S2.
 @article{khalili2025tectonic,
   title={Tectonic Memory and Short-Term Earthquake Forecasting in the Zagros-Makran Belt: A Seismological Validation of Deep Sequence Models},
   author={Khalili, Marzieh and Fotoohi, Ali},
-  journal={Journal of Seismology (Under Review)},
+  journal={Journal of Seismology},
   year={2026}
 }
 ```
