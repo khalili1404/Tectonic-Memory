@@ -1,10 +1,3 @@
-"""
-Quick System Check for Earthquake Forecasting Models
-Description:
-    This script generates dummy data and runs a single training epoch
-    to verify that TensorFlow, SHAP, and all dependencies are correctly installed.
-"""
-
 import os
 import numpy as np
 import pandas as pd
@@ -28,11 +21,9 @@ def run_quick_check():
         return
 
     print(">>> 2. Generating Dummy Seismic Data...")
-    # Simulate a small catalog (N=100, Features=5)
     data = np.random.rand(100, 5)
     targets = np.random.rand(100, 1)
     
-    # Reshape for Time Series (Batch, Window=10, Features=5)
     X = data.reshape(10, 10, 5)
     Y = targets[:10]
     print(f"    [+] Data shape created: {X.shape}")
