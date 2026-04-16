@@ -1,4 +1,4 @@
-# Tectonic Memory and Spatiotemporal Earthquake Clustering in the Zagros-Makran Belt: A Deep Learning Approach
+# Tectonic Memory and Short-Term Earthquake Forecasting in the Zagros-Makran Belt: A Seismological Validation of Deep Sequence Models
 
 **A Seismological Validation of Deep Sequence Models**
 
@@ -7,7 +7,7 @@
 
 ## Overview
 This repository contains the official implementation, datasets, and evaluation frameworks for the paper:
-> **"Tectonic Memory and Spatiotemporal Earthquake Clustering in the Zagros-Makran Belt: A Deep Learning Approach"** (Submitted to the *Journal of Seismology*).
+> **"Tectonic Memory and Short-Term Earthquake Forecasting in the Zagros-Makran Belt: A Seismological Validation of Deep Sequence Models"** (Submitted to the *Journal of Seismology*).
 
 Moving beyond standard machine-learning regression metrics, this study conducts a rigorous benchmark of deep sequence models (TCN, LSTM, GRU, Transformer) heavily grounded in **applied seismology**. We specifically evaluate these parameter-controlled architectures (~57k parameters) in the highly chaotic tectonic regime of the Zagros-Makran transition zone. 
 
@@ -114,7 +114,7 @@ Output: Generates Figure 4 and Supplementary Figures S1 & S2.
 
 ```bash
 @article{khalili2025tectonic,
-  title={Tectonic Memory and Spatiotemporal Earthquake Clustering in the Zagros-Makran Belt: A Deep Learning Approach},
+  title={Tectonic Memory and Short-Term Earthquake Forecasting in the Zagros-Makran Belt: A Seismological Validation of Deep Sequence Models},
   author={Khalili, Marzieh and Fotoohi, Ali},
   journal={Journal of Seismology},
   year={2026}
